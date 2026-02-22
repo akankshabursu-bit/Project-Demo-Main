@@ -1,0 +1,79 @@
+/******w**************
+    
+    Assignment 4 Stylesheet
+    Name: Dingguo Du
+    Date: 2023/2/5
+    Description: Open Data
+
+*********************/
+
+table {
+	border: 2px solid black;
+	background-color: #ad9d6d;
+	color: #ddd;
+	width: 80%;
+	margin: 25px auto;
+	padding: 10px;
+	border: 4px solid black;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #aaa;
+	display: none;
+	table-layout:fixed;
+	
+}
+
+table caption {
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	color: #777;
+}
+thead {
+	font-weight: bold;
+	background-color: #959595;
+}
+
+ body{
+	background: url("images/winnipeg.jpg");
+	background-size:20em 20em;
+	font-family: 'Abel', sans-serif;
+} 
+
+tbody tr:nth-child(even){
+	background-color: #72736F;
+}
+
+tbody tr:hover{
+	background-color: #BD36C7;
+}
+
+#container{
+	display: flex;
+	justify-content: center;
+}
+
+#message{
+	text-align: center;
+	color: rgba(210, 14, 34, 0.974);
+	background-color: #ad9d6d;
+	text-decoration: blink;
+	
+}
+
+table td { 
+	width: 250px;
+	text-align: center;
+}
+
+.text {
+	width: 200px;
+	border: 2px solid;
+}
+
+h1{
+	text-align: center;
+}
+
+
+
+
